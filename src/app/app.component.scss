@@ -1,0 +1,21 @@
+$tab-size: 780px;
+$mob-size: 480px;
+
+
+app-navbar{
+    width: 100%;
+    max-width: 1560px;
+    box-sizing: border-box;
+    padding: 0px 80px;
+    justify-self: center;
+    @media screen and ( max-width: $tab-size ) {
+        padding: 0px 40px;
+    }
+
+    @media screen and ( max-width: $mob-size ) {
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+
+    margin-top: 40px;
+}

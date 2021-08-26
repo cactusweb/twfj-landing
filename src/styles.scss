@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+
+$tab-size: 780px;
+
+html, body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    min-height: 100vh;
+}
+
+body{
+    background-image: url('/assets/bg.png');
+}
+
+p, h1, h2, h3, h4, button{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a, button{
+    cursor: pointer;
+}
+
+
+
+
+app-root{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+    row-gap: 40px;
+}
+
+router-outlet{
+    position: absolute;
+}
+
+app-home{
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
+*{
+    font-family: 'Raleway', sans-serif !important;
+    text-decoration: none;
+    color: #fff;
+}
